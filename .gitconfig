@@ -1,17 +1,17 @@
 [color]
-	ui = auto
+  ui = auto
 [user]
-	email = me@ashwinbhat.com
-	name = Ashwin Bhat
+  email = me@ashwinbhat.com
+  name = Ashwin Bhat
 [alias]
-	br = branch
-	st = status
+  br = branch
+  st = status
   cm = commit
   co = checkout
   d  = diff
   r  = rebase
-	unstage = reset HEAD --
-	last = log -1 HEAD
+  unstage = reset HEAD --
+  last = log -1 HEAD
   amend = commit --amend
   lg = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%cr)%C(reset) %C(white)%s%C(reset) %C(bold white)— %cn%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
   lg2 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%cD%C(reset) %C(bold green)(%cr)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %cn%C(reset)' --abbrev-commit
